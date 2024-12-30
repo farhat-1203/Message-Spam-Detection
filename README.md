@@ -29,10 +29,12 @@ To run this project, you'll need the following Python libraries:
    ```bash
    pip install -r requirements.txt
    ```
-
+   
+## Project Structure
 ```
 Message-Spam-Detection
 ├── Cleaned_Dataset.csv          # The cleaned dataset used for model training
+├── dataset.csv                  # Main dataset which is unprocessed
 ├── message_detection.py         # Main Python file for spam detection
 ├── README.md                    # Project documentation
 ├── requirements.txt             # List of dependencies for the project
